@@ -1,0 +1,3 @@
+CUDA_VISIBLE_DEVICES=7  python run_bert2tree-test.py  --save_path model/aug_MWPbase0 --save --train_path data/train0/aug_training0.json --valid_path data/train0/valid0.json --test_path data/test.json
+CUDA_VISIBLE_DEVICES=7  python run_bert2tree-test.py  --save_path model/aug_MWPbase1 --save --train_path data/train1/aug_training1.json --valid_path data/train1/valid1.json --test_path data/test.json
+CUDA_VISIBLE_DEVICES=7  python run_bert2tree-test.py  --save_path model/aug_MWPbase2 --save --train_path data/train2/aug_training2.json --valid_path data/train2/valid2.json --test_path data/test.json
